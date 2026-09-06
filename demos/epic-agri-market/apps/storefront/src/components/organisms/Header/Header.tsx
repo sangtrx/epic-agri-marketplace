@@ -38,12 +38,13 @@ export const Header = async ({ locale } : {
           />
         </div>
         <div className="flex lg:justify-center lg:w-1/3 items-center pl-4 lg:pl-0">
-          <LocalizedClientLink href="/" className="text-2xl font-bold" data-testid="header-logo-link">
+          <LocalizedClientLink href="/" className="text-2xl font-bold" data-testid="header-logo-link" aria-label="EPIC Technology home">
             <Image
-              src="/Logo.svg"
-              width={190}
-              height={40}
-              alt="EPIC Agri Market"
+              src="/epic-technology-logo.svg"
+              width={220}
+              height={75}
+              className="h-12 w-auto"
+              alt="EPIC Technology"
               priority
             />
           </LocalizedClientLink>
