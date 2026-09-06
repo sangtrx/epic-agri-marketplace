@@ -9,16 +9,21 @@ export function Footer() {
       <div>
         <LocalizedClientLink
           href="/"
-          className="inline-flex bg-white px-3 py-2"
+          className="inline-flex items-center gap-2 bg-white px-3 py-2"
           aria-label="EPIC Technology home"
         >
-          <Image
-            src="/epic-technology-logo.svg"
-            width={220}
-            height={75}
-            className="h-12 w-auto"
-            alt="EPIC Technology"
-          />
+          <span className="relative block h-12 w-[50px] shrink-0 overflow-hidden">
+            <Image
+              src="/epic-technology-logo.svg"
+              width={140}
+              height={48}
+              className="h-12 w-auto max-w-none"
+              alt=""
+            />
+          </span>
+          <span className="whitespace-nowrap text-[17px] font-bold tracking-[-0.04em] text-[#0b4f97]">
+            EPIC TECHNOLOGY
+          </span>
         </LocalizedClientLink>
         <p>Rooted in Vietnam. Connected by possibility.</p>
       </div>
