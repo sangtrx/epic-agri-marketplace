@@ -1,3 +1,5 @@
+> **EPIC Agri Market — Sep 7 demo:** the standalone official Mercur application is in [demos/epic-agri-market](./demos/epic-agri-market). See its README for local setup, walkthrough and limitations. Upstream Mercur core and attribution are preserved below.
+
 <br>
 <p align="center">
   <a href="https://github.com/mercurjs/mercur">

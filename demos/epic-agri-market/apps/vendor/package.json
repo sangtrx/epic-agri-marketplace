@@ -1,0 +1,22 @@
+{
+  "name": "@acme/vendor",
+  "private": true,
+  "version": "2.3.3",
+  "type": "module",
+  "scripts": {
+    "dev": "vite --host 127.0.0.1 --port 7108 --strictPort",
+    "build": "tsc -b && vite build",
+    "lint": "eslint .",
+    "preview": "vite preview --port 7108",
+    "typecheck": "tsc -b"
+  },
+  "dependencies": {
+    "@mercurjs/vendor": "2.3.3",
+    "react": "^18.3.1",
+    "react-dom": "^18.3.1",
+    "react-router-dom": "7.18.1"
+  },
+  "devDependencies": {
+    "@types/node": "^24.10.1"
+  }
+}

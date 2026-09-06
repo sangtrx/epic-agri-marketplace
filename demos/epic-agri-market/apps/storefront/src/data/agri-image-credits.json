@@ -1,0 +1,65 @@
+[
+  {
+    "asset": "durian.jpg",
+    "title": "Durian_in_black.jpg",
+    "source": "https://commons.wikimedia.org/wiki/File:Durian_in_black.jpg",
+    "author": "مانفی",
+    "license": "CC BY-SA 4.0",
+    "license_url": "https://creativecommons.org/licenses/by-sa/4.0",
+    "changes": "Resized to 960 px; displayed cropped in product cards. Illustrative commodity photograph, not a supplier lot."
+  },
+  {
+    "asset": "mango.jpg",
+    "title": "Mangos_-_single_and_halved.jpg",
+    "source": "https://commons.wikimedia.org/wiki/File:Mangos_-_single_and_halved.jpg",
+    "author": "Ivar Leidus",
+    "license": "CC BY-SA 4.0",
+    "license_url": "https://creativecommons.org/licenses/by-sa/4.0",
+    "changes": "Resized to 960 px; displayed cropped in product cards. Illustrative commodity photograph, not a supplier lot."
+  },
+  {
+    "asset": "vegetables.jpg",
+    "title": "Broccoli_and_cross_section_edit.jpg",
+    "source": "https://commons.wikimedia.org/wiki/File:Broccoli_and_cross_section_edit.jpg",
+    "author": "Fir0002",
+    "license": "GFDL 1.2",
+    "license_url": "http://www.gnu.org/licenses/old-licenses/fdl-1.2.html",
+    "changes": "Resized to 960 px; displayed cropped in product cards. Illustrative commodity photograph, not a supplier lot."
+  },
+  {
+    "asset": "shrimp.jpg",
+    "title": "Litopenaeus_vannamei_specimen.jpg",
+    "source": "https://commons.wikimedia.org/wiki/File:Litopenaeus_vannamei_specimen.jpg",
+    "author": "Herman Gunawan, Bangka, Indonesia.",
+    "license": "CC BY-SA 3.0",
+    "license_url": "https://creativecommons.org/licenses/by-sa/3.0",
+    "changes": "Resized to 960 px; displayed cropped in product cards. Illustrative commodity photograph, not a supplier lot."
+  },
+  {
+    "asset": "squid.jpg",
+    "title": "Lipari-Calmars.jpg",
+    "source": "https://commons.wikimedia.org/wiki/File:Lipari-Calmars.jpg",
+    "author": "Ji-Elle",
+    "license": "CC BY-SA 3.0",
+    "license_url": "https://creativecommons.org/licenses/by-sa/3.0",
+    "changes": "Resized to 960 px; displayed cropped in product cards. Illustrative commodity photograph, not a supplier lot."
+  },
+  {
+    "asset": "pepper.jpg",
+    "title": "Dried_Peppercorns.jpg",
+    "source": "https://commons.wikimedia.org/wiki/File:Dried_Peppercorns.jpg",
+    "author": "en:User:Bunchofgrapes",
+    "license": "CC BY-SA 3.0",
+    "license_url": "http://creativecommons.org/licenses/by-sa/3.0/",
+    "changes": "Resized to 960 px; displayed cropped in product cards. Illustrative commodity photograph, not a supplier lot."
+  },
+  {
+    "asset": "hero.jpg",
+    "title": "Mu_Cang_Chai.jpg",
+    "source": "https://commons.wikimedia.org/wiki/File:Mu_Cang_Chai.jpg",
+    "author": "Viethavvh",
+    "license": "Public domain",
+    "license_url": "",
+    "changes": "Resized to 960 px; displayed cropped in product cards. Illustrative commodity photograph, not a supplier lot."
+  }
+]
