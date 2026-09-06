@@ -38,15 +38,20 @@ export const Header = async ({ locale } : {
           />
         </div>
         <div className="flex lg:justify-center lg:w-1/3 items-center pl-4 lg:pl-0">
-          <LocalizedClientLink href="/" className="text-2xl font-bold" data-testid="header-logo-link" aria-label="EPIC Technology home">
-            <Image
-              src="/epic-technology-logo.svg"
-              width={220}
-              height={75}
-              className="h-12 w-auto"
-              alt="EPIC Technology"
-              priority
-            />
+          <LocalizedClientLink href="/" className="inline-flex items-center gap-2" data-testid="header-logo-link" aria-label="EPIC Technology home">
+            <span className="relative block h-12 w-[50px] shrink-0 overflow-hidden">
+              <Image
+                src="/epic-technology-logo.svg"
+                width={140}
+                height={48}
+                className="h-12 w-auto max-w-none"
+                alt=""
+                priority
+              />
+            </span>
+            <span className="whitespace-nowrap text-[17px] font-bold tracking-[-0.04em] text-[#0b4f97]">
+              EPIC TECHNOLOGY
+            </span>
           </LocalizedClientLink>
         </div>
         <div className="flex items-center justify-end gap-2 lg:gap-4 w-full lg:w-1/3 py-2" data-testid="header-actions">
