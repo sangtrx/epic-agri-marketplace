@@ -18,6 +18,12 @@ const nextConfig: NextConfig = {
     contentSecurityPolicy: "default-src 'self'; script-src 'none'; sandbox;",
     remotePatterns: [
       {
+        protocol: 'http',
+        hostname: '100.118.120.59',
+        port: '43111',
+        pathname: '/images/agri/**'
+      },
+      {
         protocol: 'https',
         hostname: 'medusa-public-images.s3.eu-west-1.amazonaws.com'
       },
