@@ -56,7 +56,7 @@ export const Header = async ({ locale } : {
         </div>
         <div className="flex items-center justify-end gap-2 lg:gap-4 w-full lg:w-1/3 py-2" data-testid="header-actions">
           <CountrySelector regions={regions} />
-          {isLoggedIn && <MessageButton />}
+          {process.env.NEXT_PUBLIC_TALKJS_APP_ID && isLoggedIn && <MessageButton />}
           <UserDropdown isLoggedIn={isLoggedIn} />
           <CartDropdown />
         </div>
