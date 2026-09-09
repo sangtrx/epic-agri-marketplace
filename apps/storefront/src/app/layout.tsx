@@ -2,6 +2,7 @@ import type { Metadata } from 'next';
 import { Funnel_Display } from 'next/font/google';
 
 import './globals.css';
+import './epic-agri.css';
 
 import { Toaster } from '@medusajs/ui';
 import Head from 'next/head';
@@ -20,12 +21,12 @@ const funnelDisplay = Funnel_Display({
 export const metadata: Metadata = {
   title: {
     template: `%s | ${
-      process.env.NEXT_PUBLIC_SITE_NAME || 'Mercur B2C Demo - Marketplace Storefront'
+      process.env.NEXT_PUBLIC_SITE_NAME || 'EPIC Agri Market'
     }`,
-    default: process.env.NEXT_PUBLIC_SITE_NAME || 'Mercur B2C Demo - Marketplace Storefront'
+    default: process.env.NEXT_PUBLIC_SITE_NAME || 'EPIC Agri Market'
   },
   description:
-    process.env.NEXT_PUBLIC_SITE_DESCRIPTION || 'Mercur B2C Demo - Marketplace Storefront',
+    process.env.NEXT_PUBLIC_SITE_DESCRIPTION || 'EPIC Agri Market demo marketplace',
   metadataBase: new URL(process.env.NEXT_PUBLIC_BASE_URL || 'http://localhost:3000')
 };
 
@@ -36,7 +37,6 @@ export default async function RootLayout({
 }>) {
   const cart = await retrieveCart();
 
-  // default lang updated by HtmlLangSetter
   const htmlLang = 'en';
 
   return (
@@ -72,7 +72,6 @@ export default async function RootLayout({
           rel="dns-prefetch"
           href="https://i.imgur.com"
         />
-        {/* Image origins for faster LCP */}
         <link
           rel="preconnect"
           href="https://medusa-public-images.s3.eu-west-1.amazonaws.com"
