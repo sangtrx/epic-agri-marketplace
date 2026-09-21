@@ -1,7 +1,4 @@
-import {
-  HomeCategories,
-  HomeProductSection,
-} from "@/components/sections"
+import { HomeProductSection } from "@/components/sections"
 
 import type { Metadata } from "next"
 import Link from "next/link"
@@ -185,7 +182,45 @@ export default async function Home({
       </section>
 
       <section className="agri-categories" aria-label="Marketplace categories">
-        <HomeCategories heading="BROWSE THE MARKET" />
+        <div className="border-t border-[color:var(--agri-line)] pt-8">
+          <div className="mb-6 flex flex-wrap items-end justify-between gap-4">
+            <h2 className="heading-lg text-primary uppercase">BROWSE THE MARKET</h2>
+            <Link
+              href="/categories"
+              className="text-[10px] font-semibold uppercase tracking-[0.12em] text-[color:var(--agri-leaf)]"
+            >
+              View all categories <span aria-hidden="true">→</span>
+            </Link>
+          </div>
+          <div className="grid grid-cols-1 gap-px border border-[color:var(--agri-line)] bg-[color:var(--agri-line)] sm:grid-cols-2 lg:grid-cols-5">
+            {[
+              ["01", "Produce & harvest"],
+              ["02", "Grains & staples"],
+              ["03", "Farm inputs"],
+              ["04", "Processing & packaging"],
+              ["05", "Equipment & tools"],
+            ].map(([index, label]) => (
+              <Link
+                key={index}
+                href="/categories"
+                className="group flex min-h-40 flex-col justify-between bg-[color:var(--agri-cream)] p-5 transition-colors hover:bg-[color:var(--agri-paper)]"
+              >
+                <span className="text-[8px] font-semibold tracking-[0.14em] text-[color:var(--agri-leaf)]">
+                  {index} / MARKET AREA
+                </span>
+                <span className="flex items-end justify-between gap-4 text-lg font-medium tracking-[-0.03em] text-[color:var(--agri-ink)]">
+                  {label}
+                  <span
+                    aria-hidden="true"
+                    className="transition-transform group-hover:translate-x-1"
+                  >
+                    →
+                  </span>
+                </span>
+              </Link>
+            ))}
+          </div>
+        </div>
       </section>
 
       <section className="agri-market-note" aria-labelledby="market-note-title">
